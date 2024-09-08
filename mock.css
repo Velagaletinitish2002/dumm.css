@@ -1,0 +1,199 @@
+.container{
+    width:100vw;
+    height: 800px;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 10px;
+    margin: 0px;
+    justify-content: center;
+    align-content: center;
+
+}
+.container1{
+    display: flex;
+    gap: 10px;
+}
+@keyframes google {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+        
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+div>.class1{
+    display: grid;
+    grid-row: 1/4;
+    grid-column: 1/1;
+    align-content: center;
+    justify-content: center;
+    background-color: #fcf;
+    box-shadow: 1px 1px 3px #cfc;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    animation: google 1s infinite ease-in-out;
+}
+.dot:nth-child(1){
+    animation-delay: 0s;
+    background-color: #aca;
+}
+.dot:nth-child(2){
+    animation-delay: 0s;
+    background-color: blue;
+}
+.dot:nth-child(3){
+    animation-delay: 0s;
+    background-color: blueviolet;
+}
+.dot:nth-child(4){
+    animation-delay: 0s;
+    background-color: gold;
+}
+.class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: red 3px 3px 5px;
+}
+div>.class2{
+    grid-column: 2 / 4;
+    background-color: blueviolet;
+    box-shadow: 2px 2px 4px red;
+
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    height: 100vh;
+    color: azure;
+}
+
+div>.class3 {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgb(143, 240, 128);
+    box-shadow: 2px 2px 4px blanchedalmond;
+}
+div>.class4{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px gray;
+}
+.con2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border-top: 20px solid green !important;
+    border: 20px solid whitesmoke;
+    animation: spin 2s infinite ease-in;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+div>.class5{
+    background-color: yellow;
+    box-shadow: 2px 2px 4px palevioletred;
+}
+.con5{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    height: 80
+}
+div>.class6{
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px yellow;
+}
+.container6{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    height: 80%;
+}
+@keyframes bounce {
+    0%, 100%{
+        height: 100px;
+    }
+    50%{
+        height: 300px;
+    }
+    
+}
+.bar{
+    width: 20px;
+    height: 100px;
+    background-color: rgb(0, 255, 17);
+    animation: bounce 1s infinite ease-in-out;
+    margin: 0 5px;
+
+}
+.bar:nth-child(1) {
+    animation-delay: 0s;
+}
+.bar:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.bar:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.bar:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.bar:nth-child(6) {
+    animation-delay: 1s;
+}
+.bar:nth-child(1) {
+    animation-delay: 1.2s;
+}
+div>.class7 {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px orangered;
+}
+div>.class8 {
+    background-color: rgb(17, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgb(0, 255, 30);
+}
